@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #c56312;
+}
+
+.main-tit{
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 3.7em;
+    margin: 20px 0;
+}
+
+.perfil{
+    background-color: #fff;
+    width: 90%;
+    max-width: 380px;
+    min-width: 280px;
+    margin: 0 auto;
+}
+
+.perfil-user {
+    background-color: #67875f;
+    padding: 10px 10px;
+}
+
+.rounded{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #c56312;
+    float: left;
+}
+
+.perfil-user img{
+    width: 100px;
+}
+
+.perfil-username {
+    float: left;
+    font-size: 1em;
+    padding: 25px 0 0 5%;
+    color: #fff;
+}
+
+.perfil-username h1{
+    letter-spacing: .5px;
+    margin: 0%;
+}
+
+.perfil-username h2{
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: .5px;
+}
+
+.clear{
+    clear: both;
+}
+
+.linha{
+    margin: 10px 0;
+    height: 1px;
+    background-color: #c56312;
+}
+
+.perfil-status {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.perfil-status li{
+    display: inline-block;
+    margin: 0 auto;
+    width: 32%;
+    color:#fff;
+    text-align: center;
+}
+
+.perfil-status p{
+    line-height: 1.4;
+    font-size: 1.2em;
+    letter-spacing: .5px;
+}
+
+.nav a{
+    display: block;
+    padding: 10px;
+    color: #ccc;
+}
+
+.nav li{
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.nav li:nth-child(2){
+    display: block;
+}
+
+.nav li:last-child(2) > a{
+    display: block;
+    float: left;
+    width: calc(100% - 27px);
+}
+
+.nav li:nth-child(2) > span{
+    display: block;
+    float: right;
+    width: 22px;
+    padding: 5px;
+    margin: 5px 5px 0 0;
+    background-color: #67875f;
+    color: #fff;
+    border-radius: 2px;
+    color: #ccc;
+}
+
+.nav li:last-child{
+    border: none;
+}
+
+footer{
+    width: 90%;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+footer p{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 40px;
+    text-align: center;
+}
